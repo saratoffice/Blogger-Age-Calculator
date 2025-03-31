@@ -1,0 +1,20 @@
+<!-- Custom Age Calculator Widget for Blogger -->
+<div class="age-calculator">
+    <h2>Age Calculator</h2>
+    <form onsubmit="calculateAge(); return false;">
+        <!-- Input for Date of Birth -->
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" required>
+
+        <!-- Input for Current or Target Date -->
+        <label for="currentDate">Calculate Age At:</label>
+        <input type="date" id="currentDate" required>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Calculate Age">
+    </form>
+
+    <!-- Display the Result -->
+    <div id="ageResultText"></div>
+</div>
+
